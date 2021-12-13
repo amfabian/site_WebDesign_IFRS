@@ -283,13 +283,17 @@ p{
     text-align: left;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 30px;
+    padding: 50px 30px;
 }
 #services .service-top{
-    width: 500px;
+    width: 1000px;
     margin: 0 auto;
 }
 
+
+#services .service-top p {
+    font-size: 1.8rem;
+}
 
 #services .service-item p{
     color: white;
