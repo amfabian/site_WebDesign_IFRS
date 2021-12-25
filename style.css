@@ -478,6 +478,7 @@ p{
     
 }
 #contact .contact-items{
+    padding-top: 30px;
     width: 300px;  
 }
 #contact .contact-item{
@@ -503,12 +504,14 @@ p{
     margin-bottom: 10px;
 }
 #contact .contact-info h1{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 300;
     margin-bottom: 5px;
+    padding-bottom: 0.5em;
 }
 #contact .contact-info h2 {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    padding-bottom: 0.5em; 
     line-height: 2rem;
     font-weight: 300;
 }
