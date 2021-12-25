@@ -20,8 +20,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+
 img{
     height: 100%;
     width: 100%;
@@ -199,7 +199,7 @@ p{
 
 /* Hero Section */
 #hero{
-    background-image: url(img/foto11.jpg);
+    background-image: url(img/foto_bg1.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -286,8 +286,9 @@ p{
     padding: 50px 30px;
 }
 #services .service-top{
-    width: 1000px;
+    width: auto;
     margin: 0 auto;
+    text-indent: 40px;
 }
 
 
@@ -421,7 +422,8 @@ p{
 /* about us*/
 #about .about{
     flex-direction: column-reverse;
-    text-align: center;
+    text-align: left;
+    
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 20px;    
@@ -429,9 +431,11 @@ p{
 #about .col-left{
     width: 250px;
     height: 360px;
+    
 }
 #about .col-right{
     width: 100%;
+    text-indent: 40px;
 }
 #about .col-right h2{
     font-size: 1.8rem;
@@ -446,6 +450,7 @@ p{
     margin-bottom: 50px;
     padding: 10px 20px;
     font-size: 2rem;
+    text-indent: 00px;
 }
 #about .col-left .about-img{
     height: 100%;
