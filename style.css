@@ -15,12 +15,14 @@ a {
     text-decoration: none;
 }
 .container{
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 img{
     height: 100%;
@@ -66,7 +68,7 @@ p{
 .brand h1{
     font-size: 3rem;
 	text-transform: uppercase;
-	color: white;
+	color: red;
     
 }
 /*header Section*/
@@ -78,6 +80,7 @@ p{
     width: 100vw;
     height: auto;
 }
+
 #header .header {
     min-height: 8vh;
     background-color: rgb(220, 133, 20);
@@ -138,7 +141,7 @@ p{
     letter-spacing: initial;
 }
 #header .nav-list ul li:hover a{
-    color: orange;
+    color: rgb(240, 185, 114);
 }
 #header .hamburger{
     height: 60px;
@@ -155,7 +158,7 @@ p{
     transform: scale(.8);
     margin-right: 20px;
 }
-#heade .hamburger:after{
+#header .hamburger:after{
     position: absolute;
     content: '';
     height: 100%;
@@ -200,6 +203,7 @@ p{
 /* Hero Section */
 #hero{
     background-image: url(img/foto_bg1.jpg);
+   
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -217,6 +221,7 @@ p{
     z-index: -1;
 }
 #hero .hero{
+    min-height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
@@ -283,7 +288,7 @@ p{
     text-align: left;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 50px 30px;
+    padding: 100px 30px;
 }
 #services .service-top{
     width: auto;
@@ -426,7 +431,7 @@ p{
     
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 20px;    
+    padding: 80px 20px;    
 }
 #about .col-left{
     width: 250px;
@@ -474,6 +479,8 @@ p{
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 100px;
+    
 }
 #contact .contact-items{
     width: 300px;  
@@ -517,9 +524,9 @@ p{
     
 }
 #footer .footer{
-    min-height: 200px;
+    min-height: 00px;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 10px;
 }
 #foofter h2{
