@@ -288,12 +288,17 @@ p{
 #services .service-top{
     width: auto;
     margin: 0 auto;
-    text-indent: 40px;
+   
 }
 
+#services .service-top h1 {
+      padding-bottom: 1em;
+}
 
 #services .service-top p {
     font-size: 1.8rem;
+    text-indent: 40px;
+   
 }
 
 #services .service-item p{
