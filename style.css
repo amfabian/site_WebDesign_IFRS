@@ -424,6 +424,81 @@ p{
     transform: scale(1.1);
 }
 /*end of projects*/
+
+
+
+/*eventos section*/
+#eventos .eventos{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#eventos .projects-header h1{
+    margin-bottom:  50px;
+}
+#eventos .all-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#eventos .project-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#eventos .project-info{
+    padding: 30px;
+    flex-basis: 50%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(220, 133, 20);
+    color: white;
+}
+#eventos .project-info h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+#eventos .project-info h2{
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+#eventos .project-info p{
+    color: white;
+}
+#eventos .project-img{
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+}
+#eventos .project-img:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 133, 20);
+    opacity: .7;
+}
+#eventos .project-img img{
+    transition: 3s ease transform;
+}
+#eventos:hover .project-item:hover .project-img img{
+    transform: scale(1.1);
+}
+/*end of eventos*/
 /* about us*/
 #about .about{
     flex-direction: column-reverse;
@@ -638,6 +713,29 @@ p{
         height: 100%;
     }
     /*end of projects*/
+
+
+    
+    /*eventos*/
+    #eventos .project-item {
+        flex-direction: row;
+    }
+    #eventos .project-item:nth-child(even){
+        flex-direction: row-reverse;
+    }
+    #eventos .project-item {
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    #eventos .all-projects .project-info {
+        height: 100%;
+    }
+    #eventos .all-projects .project-img {
+        height: 100%;
+    }
+    /*end of eventos*/
 
     /*aboutus*/
     #about .about{
