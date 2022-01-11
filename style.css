@@ -319,6 +319,7 @@ p{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    height: 300px; /* linha criada para manter todos os itens com o mesmo tamanho*/
     padding: 30px;
     border-radius: 10px;
     background-image: url(./img/foto6.jpeg);
